@@ -47,16 +47,64 @@
         }
       ],
       "review_count": 1
+    },
+    {
+      "number": 1561,
+      "title": "Add Linux ARM64 (aarch64) native build support",
+      "author": "gnodet",
+      "reviewed_at": "2026-08-23T02:35:44Z",
+      "verdict": "COMMENT",
+      "notes": "Superseded by PR #1611, needs rebase and GraalVM 25 rework",
+      "interactions": [
+        {
+          "at": "2026-08-23T02:35:44Z",
+          "verdict": "COMMENT",
+          "notes": "Superseded by PR #1611, needs rebase and GraalVM 25 rework"
+        }
+      ],
+      "review_count": 1
+    },
+    {
+      "number": 1655,
+      "title": "Fix(#1555): stale plugin descriptor for rebuilt reactor plugins",
+      "author": "HarshMehta112",
+      "reviewed_at": "2026-08-23T02:35:44Z",
+      "verdict": "REQUEST_CHANGES",
+      "notes": "Core eviction mechanism ineffective - Maven 4 copy constructor doesn't copy artifacts field",
+      "interactions": [
+        {
+          "at": "2026-08-23T02:35:44Z",
+          "verdict": "REQUEST_CHANGES",
+          "notes": "Core eviction mechanism ineffective - Maven 4 copy constructor doesn't copy artifacts field"
+        }
+      ],
+      "review_count": 1
+    },
+    {
+      "number": 1670,
+      "title": "Stream live test-progress from forked test JVMs to the mvnd client (mvnd-1.x)",
+      "author": "ammachado",
+      "reviewed_at": "2026-08-23T02:35:44Z",
+      "verdict": "APPROVE",
+      "notes": "Well-architected feature, sound thread safety, comprehensive tests",
+      "interactions": [
+        {
+          "at": "2026-08-23T02:35:44Z",
+          "verdict": "APPROVE",
+          "notes": "Well-architected feature, sound thread safety, comprehensive tests"
+        }
+      ],
+      "review_count": 1
     }
   ],
   "skipped_prs": [],
   "last_run": {
-    "timestamp": "2026-08-23T02:14:51Z",
+    "timestamp": "2026-08-23T02:35:44Z",
     "prs_checked": 3,
     "reviews_posted": 3,
-    "tokens_estimate": 173636
+    "tokens_estimate": 498000
   },
   "paused": false,
   "review_queue": [],
-  "last_reviewed_updated_at": "2026-08-08T17:22:04Z"
+  "last_reviewed_updated_at": "2026-08-23T02:01:09Z"
 }
