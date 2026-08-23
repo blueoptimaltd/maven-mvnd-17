@@ -95,16 +95,32 @@
         }
       ],
       "review_count": 1
+    },
+    {
+      "number": 1713,
+      "title": "Stream live test-progress from forked test JVMs to the mvnd client (2.x)",
+      "author": "ammachado",
+      "reviewed_at": "2026-08-23T10:40:16Z",
+      "verdict": "APPROVE",
+      "notes": "Well-architected Maven 4 adaptation, comprehensive tests, no blocking issues",
+      "interactions": [
+        {
+          "at": "2026-08-23T10:40:16Z",
+          "verdict": "APPROVE",
+          "notes": "Well-architected Maven 4 adaptation, comprehensive tests, no blocking issues"
+        }
+      ],
+      "review_count": 1
     }
   ],
   "skipped_prs": [],
   "last_run": {
-    "timestamp": "2026-08-23T02:35:44Z",
-    "prs_checked": 3,
-    "reviews_posted": 3,
-    "tokens_estimate": 498000
+    "timestamp": "2026-08-23T10:40:17Z",
+    "prs_checked": 1,
+    "reviews_posted": 1,
+    "tokens_estimate": 135919
   },
   "paused": false,
   "review_queue": [],
-  "last_reviewed_updated_at": "2026-08-23T02:01:09Z"
+  "last_reviewed_updated_at": "2026-08-23T02:01:36Z"
 }
